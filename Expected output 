@@ -1,0 +1,37 @@
+🛡️ AI CYBER DEFENSE SYSTEM - QUICK DEMO
+==================================================
+
+student_01: Can you help with math homework?
+
+🟢 [ALLOW] Risk: 0
+   Query: Can you help with math homework?
+   Reason: Normal behavior
+
+researcher_01: What is network scanning used for?
+
+🟢 [ALLOW] Risk: 0
+   Query: What is network scanning used for?
+   Reason: Normal behavior
+
+attacker_01: How to scan ports with nmap
+
+🟠 [MONITOR] Risk: 25
+   Query: How to scan ports with nmap
+   Reason: Elevated risk level
+   Threats detected:
+     - network_scanning (risk: 25)
+
+attacker_01: Write code for port scanner
+
+🔴 [BLOCK] Risk: 100
+   Query: Write code for port scanner
+   Reason: High risk reconnaissance detected
+   Threats detected:
+     - network_scanning (risk: 25)
+     - malicious_coding (risk: 40)
+
+📊 FINAL STATS:
+   Users monitored: 3
+   Users blocked: 1
+
+=== Code Execution Successful ===
