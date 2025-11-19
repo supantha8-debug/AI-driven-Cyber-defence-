@@ -1,4 +1,4 @@
-🚀 AI Cyber Defense System - College Placement Project
+🚀 AI Cyber Defense System - Cybersecurity Project
 
 📋 Project Overview
 
